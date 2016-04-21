@@ -6,9 +6,9 @@ LABEL site="unwsolution.com" \
 	source="https://github.com/UNwS/GoIP"
 
 # Create a working directory
-RUN mkdir -p /extra
-VOLUME ["/extra"]
-WORKDIR /extra
+RUN mkdir -p /swa
+VOLUME ["/swa"]
+WORKDIR /swa
 
 # Copy all basic file required
 COPY software/files.md5sum /extra
