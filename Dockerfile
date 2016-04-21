@@ -16,5 +16,5 @@ COPY software/radmsrv.sh /extra
 COPY software/smssrv.tar.gz /extra
 
 # Run jekyll serve
-ENTRYPOINT ["sudo /bin/bash"]
+ENTRYPOINT ["/bin/bash"]
 
