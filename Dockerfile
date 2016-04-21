@@ -1,4 +1,4 @@
-FROM ubuntu32:trusty
+FROM daald/ubuntu32:trusty
 MAINTAINER Vipin Madhavanunni <vipintm@gmail.com>
 LABEL site="unwsolution.com" \
 	version="0.1" \
